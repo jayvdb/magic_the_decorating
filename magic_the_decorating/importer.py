@@ -6,7 +6,7 @@ from loaders import CallableLoader, ModuleLoader
 
 class Finder(object):
     """
-    Custom importer that should follow 302.
+    Custom importer that should follow PEP 302.
 
     """
     def __init__(self, config_filename):
@@ -39,7 +39,7 @@ class Finder(object):
 
 class Loader(object):
     """
-    Custom loader that should follow 302.
+    Custom loader that should follow PEP 302.
 
     """
     decorated_key = '__magic_the_decorated__'
