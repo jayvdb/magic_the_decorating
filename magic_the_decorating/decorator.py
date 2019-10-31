@@ -26,7 +26,7 @@ class Base(object):
         Sets the decorators signature.
 
         @param signature - String similar to '__this_is_a_signature__'.
-            The '__' prefrix and suffix will be added automatically if not
+            The '__' prefix and suffix will be added automatically if not
             present.
         """
         affix = '__'
